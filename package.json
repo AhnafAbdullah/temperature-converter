@@ -1,0 +1,22 @@
+{
+  "name": "temperature-converter",
+  "version": "1.0.0",
+  "description": "A simple Node.js temperature converter that converts between Celsius, Fahrenheit, and Kelvin, with Jest tests and Jenkins CI pipeline.",
+  "main": "src/converter.js",
+  "scripts": {
+    "build": "echo Building Temperature Converter Project...",
+    "test": "jest"
+  },
+  "keywords": [
+    "temperature",
+    "converter",
+    "nodejs",
+    "jest",
+    "jenkins"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
