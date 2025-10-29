@@ -42,7 +42,7 @@ pipeline {
         bat """
           echo Simulating build process...
           if not exist build mkdir build
-          copy /y *.js build >nul 2>&1 || echo No .js files to copy
+          copy src\\*.js build >nul 2>&1 || echo No .js files to copy
           echo Build completed successfully!
           echo App version: %APP_VERSION% > build\\version.txt
         """
